@@ -1,0 +1,205 @@
+sketch_text:
+  font: 'KG Second Chances Sketch'
+
+x: # placeholder
+  x: 0
+
+title_art:
+  x: 0
+  y: 0
+  width: 825
+  height: 1125
+
+art:
+  x: 280
+  y: 190
+  width: 250
+  height: 250
+  align: center
+
+title:
+  extends: sketch_text
+  x: 90
+  y: 550
+  width: 630
+  height: 300
+  align: center
+  font_size: 50
+
+description:
+  x: 130
+  y: 750
+  width: 580
+  height: 375
+  align: center
+  font_size: 28
+  wrap: word_char
+  font: 'KG Second Chances Sketch'
+
+block:
+  x: 0
+  y: 0
+  width: 825
+  height: 1125
+  #align: center
+
+verso1:
+    extends: block
+    file: 'svg\verso1.svg'
+
+verso2:
+  extends: block
+  file: 'svg\verso2.svg'
+
+bg0:
+  extends: block
+  file: 'svg\background0.svg'
+
+bg1:
+  extends: block
+  file: 'svg\background1.svg'
+
+bg2:
+  extends: block
+  file: 'svg\background2.svg'
+
+bg3:
+  extends: block
+  file: 'svg\background3.svg'
+
+bg4:
+  extends: block
+  file: 'svg\background4.svg'
+
+number_zone:
+  extends: sketch_text
+  width: 70
+  height: 45
+
+sprintsNbrs:
+  extends: number_zone
+  x: 110
+  align: center
+  valign: middle
+  font: 'KG Second Chances Sketch'
+  font_size: 35
+
+Sprint1Nbr:
+  extends: sprintsNbrs
+  y: 125
+
+Sprint2Nbr:
+  extends: sprintsNbrs
+  y: 233
+
+Sprint3Nbr:
+  extends: sprintsNbrs
+  y: 335
+
+Sprint4Nbr:
+  extends: sprintsNbrs
+  y: 440
+
+circle:
+  width: 143
+  height: 133
+  x: 75
+
+small_circle:
+  width: 50
+  height: 50
+  x: 70
+  y: 85
+
+Protect:
+  extends: small_circle
+  file: 'svg/small_protect.svg'
+
+circle1:
+  extends: circle
+  y: 82
+
+circle2:
+  extends: circle
+  y: 190
+
+circle3:
+  extends: circle
+  y: 290
+
+circle4:
+  extends: circle
+  y: 395
+
+infinite:
+  extends: circle1
+  x: 67
+  y: 80
+  file: 'svg/infinite_big.svg'
+
+boost:
+  extends: circle1
+  file: 'svg/boost_big.svg'
+
+bug:
+  extends: small_circle
+  x: 410
+  y: 970
+  file: 'svg/small_bug.svg'
+
+bugCount:
+  extends: number_zone
+  align: center
+  valign: middle
+  font: 'KG Second Chances Sketch'
+  font_size: 35
+  x: 330
+  y: 970
+
+base1:
+  extends: circle1
+  file: 'svg/base_big.svg'
+
+base2:
+  extends: circle2
+  file: 'svg/base_big.svg'
+
+base3:
+  extends: circle3
+  file: 'svg/base_big.svg'
+
+base4:
+  extends: circle4
+  file: 'svg/base_big.svg'
+
+# The "cut line", without rounded corners
+cut:
+  x: 37.5
+  y: 37.5
+  width: 750
+  height: 1050
+
+# The "safe zone" as defined by TheGameCrafter poker cards
+safe:
+  x: 75
+  y: 75
+  width: 675
+  height: 975
+  radius: 16
+
+copyright:
+  x: 75
+  y: 1025
+  width: 675
+  height: 25
+  font_size: 16
+  align: center
+  valign: bottom
+
+#aliases for copyright
+copy:
+  extends: copyright
+credit:
+  extends: copyright
+credits:
+  extends: copyright
