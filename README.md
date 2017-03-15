@@ -29,15 +29,15 @@ Each player represents a different Scrum team in an almost non-dysfunctional com
 #### Game content
 
 * 110 cards
- * 22 "action cards"
- * 88 "sprint cards"
+  * 22 "action cards"
+  * 88 "sprint cards"
 * The game board
- * Todo: template to print
- * Alternatively, you can use stacked up LEGO Bricks
+  * Todo: template to print
+  * Alternatively, you can use stacked up LEGO Bricks
 * A "Velocity-Meter" board
- * Todo: template to print
+  * Todo: template to print
 * 4-8 game pieces (2 per players, one for the game board and one for the velocity board)
- * Todo: template to print
+  * Todo: template to print
 
 #### Artifacts
 
@@ -59,8 +59,8 @@ Action cards are of two kinds:
 * Boosters (blue circles), the value indicates a velocity change for all the players.
 * Bugs (red monster at the bottom), the value indicates the number of bugs to add to the backlog.
 
-![Team event](ReadMeResources\TeamEvent.png)
-![Bugtopus](ReadMeResources\BugTopus.png)
+![Team event](ReadMeResources/TeamEvent.png)
+![Bugtopus](ReadMeResources/BugTopus.png)
 
 #### Sprint cards
 
@@ -69,17 +69,17 @@ Sprint cards only affect velocity, but can have multiple values over time:
 * A circle with a value indicates a velocity change for the current sprint only.
 * A circle with an ∞ character (and a violet background) indicates a permanent velocity change.
 * If more than one circle is present, the circles represent values over time.
- * The bottom circle is the value to use for the sprint when you play the card.
- * Then going up are sprints n+1, n+2 and n+3.
- * If the top-most sprint has an infinite modifier, when this sprint is reached, all other sprints take this value into account.
- * Use paperclips or partially cover the card with another card to indicate which value is actual.
+  * The bottom circle is the value to use for the sprint when you play the card.
+  * Then going up are sprints n+1, n+2 and n+3.
+  * If the top-most sprint has an infinite modifier, when this sprint is reached, all other sprints take this value into account.
+  * Use paperclips or partially cover the card with another card to indicate which value is actual.
 
-![Scope Creep](ReadMeResources\ScopeCreep.png)
-![20% Innovation Time](ReadMeResources\20%InnovationTime.png)
+![Scope Creep](ReadMeResources/ScopeCreep.png)
+![20% Innovation Time](ReadMeResources/20%InnovationTime.png)
 
 * Cards with a small "green shield" are defensive cards. They can be used to counter any card laid down at any time during the game. Those can of course also be used as plain normal cards during your turn.
 
-![Collocated Teams](ReadMeResources\CollocatedTeams.png)
+![Collocated Teams](ReadMeResources/CollocatedTeams.png)
 
 #### Setup
 
@@ -87,7 +87,7 @@ Sprint cards only affect velocity, but can have multiple values over time:
 * Place the game pieces on the start position on the board.
 * Place the game pieces on the 0 position on the velocity-meter game board
 * Each player picks 3 cards from the "Sprint Stack"
- * At the end of the turn, all players will refill their hands to have 3 cards again.
+  * At the end of the turn, all players will refill their hands to have 3 cards again.
 
 #### Starting the Game
 
@@ -96,8 +96,8 @@ The last player who ate some chocolate is the "leader" for the first round and s
 The leader pulls the top most action card and reads it out loud:
 * If it is a boost card (blue bubble), the velocity boost applies to everyone for this round.
 * If it is a bug card (red bubble), the leader adds as many bugs to his/her backlog (the number of bugs displayed on bottom of the card) and thus walks backward on the game board.
- * Example: if you have 8 backlog items left and draw an bug card with 3 bugs, you put your game piece on the 11.
- * If your board doesn't go that far, you go as far as it gets and the remaining bugs are not accounted for.
+  * Example: if you have 8 backlog items left and draw an bug card with 3 bugs, you put your game piece on the 11.
+  * If your board doesn't go that far, you go as far as it gets and the remaining bugs are not accounted for.
 
 #### Sprint
 
@@ -112,7 +112,7 @@ Here are all the possible moves a player can make:
 | Player's own game | Another player's game | Drop the card |
 | :- | :- | :- |
 | X | X |  |
-|  | X | X |
+| | X | X |
 | X |  | X |
 
 #### Computing your velocity
@@ -139,9 +139,9 @@ The game mechanics and the cards remain the same, except for those small tweaks:
 
 * Players are not allowed to drop cards, they can only play in their game, or someone else's game.
 * Players can help each other by implementing work items for another player. For each item a player overtakes from someone else's backlog, the new owner takes a -1 velocity penalty. The penalty remains until the item(s) are all implemented.
- * Ex: Thelma volunteers to take over 3 backlog items from Louise. Thelma has now +3 backlog items and -3 Velocity penalty. In the first round, Thelma implements 2 items. In the next round, Thelma has only +1 backlog item left and a velocity penalty of -1.
+  * Ex: Thelma volunteers to take over 3 backlog items from Louise. Thelma has now +3 backlog items and -3 Velocity penalty. In the first round, Thelma implements 2 items. In the next round, Thelma has only +1 backlog item left and a velocity penalty of -1.
 * A velocity < -3 will add as many bugs to your backlog
- * Example: -5 velocity -> +5 bugs
+  * Example: -5 velocity -> +5 bugs
 
 #### Scrumkin for Retrospective
 
@@ -150,6 +150,7 @@ The game mechanics and the cards remain the same, except for those small tweaks:
 ### Tweaks and Ideas
 
 * In the collaborative version, allow for dropping cards against bugs
+* Todo (many more to come)
 
 ### FAQ
 
@@ -192,6 +193,10 @@ data = Squib.xlsx file: 'data_sprint.xlsx' #Will generate only the sprint cards
 ```
 
 > Nota: the images and pdfs created in the output folder will overwrite any pre-existing data. Save your generated content somewhere else when you are happy with it.
+
+### Thanks
+
+Thanks a lot to all the beta testers. Special thanks to my colleagues at the Frühjahrscampus 2016, Udo and his agile tribe, the crazy french J&G and the participants of the P4A17 Unconference.
 
 ### License
 
