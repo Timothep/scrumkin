@@ -75,7 +75,7 @@ Sprint cards only affect velocity, but can have multiple values over time:
   * Use paperclips or partially cover the card with another card to indicate which value is actual.
 
 ![Scope Creep](ReadMeResources/ScopeCreep.png)
-![20% Innovation Time](ReadMeResources/20%InnovationTime.png)
+![20% Innovation Time](ReadMeResources/20InnovationTime.png)
 
 * Cards with a small "green shield" are defensive cards. They can be used to counter any card laid down at any time during the game. Those can of course also be used as plain normal cards during your turn.
 
