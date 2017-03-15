@@ -110,10 +110,10 @@ Everyone must play, “passing” is not allowed.
 Here are all the possible moves a player can make:
 
 | Player's own game | Another player's game | Drop the card |
-| :- | :- | :- |
-| X | X |  |
-| | X | X |
-| X |  | X |
+| --- | --- | --- |
+| X   | X   |     |
+|     | X   | X   |
+| X   |     | X   |
 
 #### Computing your velocity
 
@@ -145,7 +145,13 @@ The game mechanics and the cards remain the same, except for those small tweaks:
 
 #### Scrumkin for Retrospective
 
-* Todo
+After the game, conduct a retrospective.
+
+Here are some suggested questions and directions to steer the discussion toward:
+* Any parallel to real life? How did it feel to play with those concepts?
+* Did any card ring a bell? Tell us that story!
+* What did you notice in the group dynamic?
+* …
 
 ### Tweaks and Ideas
 
