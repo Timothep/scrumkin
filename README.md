@@ -2,7 +2,9 @@
 
 Scrumkin is a visciously fun card game where you deal the best and worse software and management practices for fun and profit.
 
-Play session at the Play4Agile2017 Unconference in Germany:
+Played with the standard ruleset, the games takes about 45 min to be played.
+
+Here's a picture of a play session at the Play4Agile2017 Unconference in Germany (with a custom built LEGO© game board):
 
 ![Play session at the Play4Agile2017 Unconference in Germany](ReadMeResources/p4a17.JPG)
 
@@ -13,6 +15,12 @@ Play session at the Play4Agile2017 Unconference in Germany:
 #### Version history & changelog
 
 * 2017.02.19 - 0.1
+
+#### Contact
+
+@timothep on Twitter or per email at: info@scrumkingame.info.
+
+If you tweet about the game, please use the hashtag #ScrumKin.
 
 ### Rulebook
 
@@ -34,7 +42,7 @@ Each player represents a different Scrum team in an almost non-dysfunctional com
 #### Artifacts
 
 The game builds upon two artifacts:
-* A backlog for each player. The goal is for each player to fully implement (burn down) his own backlog.
+* A backlog of 10 items for each player. The goal is for each player to fully implement (burn down) his own backlog.
 * The velocity at which the player is implementing backlog items, measured in "number of backlog items per sprint"
 
 #### Cards
@@ -125,7 +133,15 @@ The winner is the player to finish his/her entire backlog first.
 
 #### Collaborative Rulebook
 
-* Todo
+Here is an alternative way of playing. Now, all the teams are playing collaboratively. There is a time limit of 10 sprints to complete the entire backlog of all the players. If the entire backlog is completed, everybody wins, otherwise everybody loses:
+
+The game mechanics and the cards remain the same, except for those small tweaks:
+
+* Players are not allowed to drop cards, they can only play in their game, or someone else's game.
+* Players can help each other by implementing work items for another player. For each item a player overtakes from someone else's backlog, the new owner takes a -1 velocity penalty. The penalty remains until the item(s) are all implemented.
+ * Ex: Thelma volunteers to take over 3 backlog items from Louise. Thelma has now +3 backlog items and -3 Velocity penalty. In the first round, Thelma implements 2 items. In the next round, Thelma has only +1 backlog item left and a velocity penalty of -1.
+* A velocity < -3 will add as many bugs to your backlog
+ * Example: -5 velocity -> +5 bugs
 
 #### Scrumkin for Retrospective
 
@@ -133,11 +149,12 @@ The winner is the player to finish his/her entire backlog first.
 
 ### Tweaks and Ideas
 
-* Todo
+* In the collaborative version, allow for dropping cards against bugs
 
 ### FAQ
 
-* Todo
+* Where do the name 'Scrumkin' comes from?
+> The original idea behind the game was to reuse the game mechanics of the game Munchkin and adapt it into the software practices world. Thus the name Scrumkin. Somehow, the rules changed quite a lot, but the name remained... for now. If you have a good idea for an alternative name, let me know.
 
 ### Behind the covers - Generate the game yourself
 
